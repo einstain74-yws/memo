@@ -1,0 +1,11 @@
+# 이 파일을 복사해서 .env.local 파일을 만드세요!
+# PowerShell에서: Copy-Item env-template.txt .env.local
+
+# Database
+DATABASE_URL="file:./dev.db"
+
+# NextAuth
+# 아래 secret을 반드시 변경하세요!
+NEXTAUTH_SECRET="change-this-to-a-secure-random-string-at-least-32-characters-long"
+NEXTAUTH_URL="http://localhost:3000"
+
